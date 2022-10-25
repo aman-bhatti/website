@@ -25,6 +25,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* CSS Resets */
 * {
   margin: 0;
@@ -62,6 +63,10 @@ h2 {
 address{
   text-align: center;
   padding-top: 1rem;
+}
+
+.skill_h1 {
+  text-align: right;
 }
 
 

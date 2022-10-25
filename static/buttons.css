@@ -1,0 +1,44 @@
+.media-button-div {
+    display: flex;
+    margin-top: 20px;
+  }
+
+
+.buttons {
+    background-color: #414a4c;
+    border: solid 1px black;
+    color: white;
+    font-weight: 700;
+    width: max-content;
+    padding: 11px 20px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 0px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .buttons:hover {
+    background-color: blue;
+    color: brown;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-3px);
+  }
+
+  @media (max-width: 768px) {
+    .buttons {
+      font-size: 0.938rem;
+      padding: 12px 18px;
+      margin-right: 0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .buttons {
+      font-size: 0.75rem;
+    }
+  }
+  
