@@ -4,11 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/99f607e44b.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./socialMedia.css"/>
-    <link rel="stylesheet" href="./all.min.css">
 
     <!-- Favicons -->
     <link
@@ -31,15 +33,21 @@
     <title>Aman Bhatti | Software  Developer</title>
   </head>
 
-  <body class="body">
-    <!-- Navbar -->
+
+<body>
+
+<div class="loader">
+  <div class="loader-inner"></div>
+</div>  <!--<img src="./styles/loader.gif">-->
+</div>
+
 <nav>
       <h1>AMAN BHATTI</h1>
       <ul class="navigation">
         <li><a href="#about" class="nav-link">About Me</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-link" onclick="contact()">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -78,18 +86,18 @@
     <!-- Scroll to top -->
 
     <!-- Footer section -->
+  <h2>Contact Info.</h2>
+  <div class="contact">
+    <div class="header">
+      <p class="contact-sub">Feel free to reach out to me down below.</p>
+    </div>
+    <div class="container">
+      
+    </div>
 
+  </div>
     <!-- Website scripts -->
-    <script src="./style.css"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <script src="./script.js"></script>
+    </script>
   </body>
 </html>
