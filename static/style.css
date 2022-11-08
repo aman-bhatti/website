@@ -151,6 +151,15 @@ nav {
     padding-left: 4.5rem;
   }
 
+  .skills-div {
+    padding-right: 4.5rem;
+  }
+
+  .skill_h1{
+    text-align: right;
+    font-size: 40px;
+  }
+
   .loader-inner{
     position: fixed;
     width: 100%;
