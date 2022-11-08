@@ -11,23 +11,23 @@ h1 {
 
 
 .btn-primary {
-    margin-left: 75rem;
+    margin-left: 80rem;
     padding: .5rem;
     border-radius: 15%;
     background-color: black;
 }
 
 #subhead {
-    margin-left: 65rem;
+    margin-left: 70rem;
 }
 
 #typewrite {
-    color: blue;
+    color: #7B3F00;
     font-weight: bold;
 }
 
 #cursor {
-    color: brown;
+    color: pink;
     animation: blink 1s linear infinite;
 }
 

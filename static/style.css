@@ -26,6 +26,7 @@ html {
 }
 
 
+
 /* CSS Resets */
 * {
   margin: 0;
@@ -126,6 +127,7 @@ nav {
     line-height: 40px;
     max-width: 475px;
     padding-top: 1rem;
+    color: black;
   }
 
   .main {
@@ -135,10 +137,10 @@ nav {
     margin-top: 4rem;
   }
   .greeting-main {
-    width: 90%;
+    width: 100%;
     padding: 30px 10px;
     margin: 0px auto;
-    margin-top: 2rem;
+    background-color: darkgrey;
   }
   
   .greeting-main {
@@ -159,3 +161,46 @@ nav {
     background-position: center;
     z-index: 99999;
   }
+
+  #h1-main {
+    margin-top: rem;
+    margin-left: 37rem;
+    font-size: 5rem;
+
+}
+
+#small {
+    font-size: 2rem;
+    color: black;
+}
+
+#main-page {
+  height: 95vh;
+  margin: auto;
+  padding-top: 22rem;
+  background-color: white;
+}
+
+#subhead {
+    margin-left: 0rem;
+}
+
+#typewrite {
+    color: #7B3F00;
+    font-weight: bold;
+}
+
+#cursor {
+    color: pink;
+    animation: blink 1s linear infinite;
+}
+
+    @keyframes blink {
+        0% {
+            opacity: 100%;
+        }
+        50% {
+            opacity: 0%;
+        }
+    }
+

@@ -1,5 +1,6 @@
 $(window).on('load', function(){
     setTimeout(function(){
         $(".loader-inner").fadeOut('slow');
-    }, 2000)
+    }, 1)
 })
+
