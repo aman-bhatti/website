@@ -68,6 +68,7 @@ address{
 
 .skill_h1 {
   text-align: right;
+  padding-right: 40px;
 }
 
 
@@ -140,7 +141,7 @@ nav {
     width: 100%;
     padding: 30px 10px;
     margin: 0px auto;
-    background-color: darkgrey;
+    background-color: blue;
   }
   
   .greeting-main {
@@ -152,11 +153,12 @@ nav {
   }
 
   .skills-div {
-    padding-right: 4.5rem;
+    display: flex;
+    background-color: red;
   }
 
   .skill_h1{
-    text-align: right;
+    padding-left: 4.5rem;
     font-size: 40px;
   }
 
@@ -171,10 +173,9 @@ nav {
     z-index: 99999;
   }
 
-  #h1-main {
-    margin-top: rem;
-    margin-left: 37rem;
-    font-size: 5rem;
+#h1-main {
+  text-align: center;
+  font-size: 5rem;
 
 }
 
