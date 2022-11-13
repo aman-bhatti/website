@@ -80,7 +80,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3.5rem;
+    padding: 10px 2rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
@@ -187,8 +187,6 @@ nav {
 
 }
 
-
-
 #small {
     font-size: 2rem;
     color: black;
@@ -207,12 +205,14 @@ nav {
 }
 
 #subhead {
-    margin-left: 0rem;
+    top: 50%;
+    left: 42%;
 }
 
 #typewrite {
     color: pink;
     font-weight: bold;
+
 }
 
 #cursor {

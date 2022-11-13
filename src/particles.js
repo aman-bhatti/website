@@ -1,17 +1,10 @@
-/* -----------------------------------------------
-/* Author : Vincent Garreau  - vincentgarreau.com
-/* MIT license: http://opensource.org/licenses/MIT
-/* Demo / Generator : vincentgarreau.com/particles.js
-/* GitHub : github.com/VincentGarreau/particles.js
-/* How to use? : Check the GitHub README
-/* v2.0.0
-/* ----------------------------------------------- */
+
 
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
 
-  /* particles.js variables with default values */
+  
   this.pJS = {
     canvas: {
       el: canvas_el,
@@ -1215,12 +1208,12 @@ var pJS = function(tag_id, params){
           return color_value;
         });
 
-    /* prepare to create img with colored svg */
+    
     var svg = new Blob([coloredSvgXml], {type: 'image/svg+xml;charset=utf-8'}),
         DOMURL = window.URL || window.webkitURL || window,
         url = DOMURL.createObjectURL(svg);
 
-    /* create particle img obj */
+    
     var img = new Image();
     img.addEventListener('load', function(){
       p.img.obj = img;

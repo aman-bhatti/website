@@ -2,7 +2,7 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  const phrases = ["code", "create", "develop"];
+  const phrases = ["code", "create", "develop", "learn"];
   const el = document.getElementById("typewrite");
 
   let sleepTime = 100;
