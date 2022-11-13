@@ -173,11 +173,21 @@ nav {
     z-index: 99999;
   }
 
+
+#heading {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+
 #h1-main {
   text-align: center;
   font-size: 5rem;
 
 }
+
+
 
 #small {
     font-size: 2rem;
@@ -191,12 +201,17 @@ nav {
   background-color: white;
 }
 
+#particles-js {
+  height: 100%;
+  background:#676d89;
+}
+
 #subhead {
     margin-left: 0rem;
 }
 
 #typewrite {
-    color: #7B3F00;
+    color: pink;
     font-weight: bold;
 }
 
