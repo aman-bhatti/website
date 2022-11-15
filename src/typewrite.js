@@ -36,3 +36,4 @@ function sleep(ms) {
   };
 
   writeLoop();
+

@@ -141,7 +141,7 @@ nav {
     width: 100%;
     padding: 30px 10px;
     margin: 0px auto;
-    background-color: blue;
+    background-color: white;
   }
   
   .greeting-main {
@@ -152,15 +152,6 @@ nav {
     padding-left: 4.5rem;
   }
 
-  .skills-div {
-    display: flex;
-    background-color: red;
-  }
-
-  .skill_h1{
-    padding-left: 4.5rem;
-    font-size: 40px;
-  }
 
   .loader-inner{
     position: fixed;
@@ -225,3 +216,49 @@ nav {
         }
     }
 
+
+    .skills-div {
+      display: flex;
+      background-color: white;
+      margin-bottom: 15px;
+      padding-left: 4.5rem;
+  
+    }
+  
+    .skill_h3{
+      
+      font-size: 30px;
+      margin-top: 5rem;
+      border-bottom: 3px solid red
+    }
+
+    .container {
+      width: 50%;
+      background-color: #333333;
+      margin: auto;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+      
+    }
+
+    .skills-p{
+      text-align: center;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+    
+    
+    .html {width: 90%; background-color: #04AA6D;}
+    .css {width: 80%; background-color: #2196F3;}
+    .python {width: 90%; background-color: purple;}
+    .js {width: 90%; background-color: red;}
+    .reactjs {width: 90%; background-color: yellow;}
+    .cpp {width: 90%; background-color: pink;}
+    .swift {width: 90%; background-color: orange;}
+    .java {width: 90%; background-color: purple;}
+    
