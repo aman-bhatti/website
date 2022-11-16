@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* Variables */
 :root {
@@ -120,7 +121,7 @@ nav {
   .greeting-text {
     font-size: 40px;
     line-height: 1.1;
-    color: black !important;
+    color: white !important;
   }
   
   .greeting-p {
@@ -128,7 +129,7 @@ nav {
     line-height: 40px;
     max-width: 475px;
     padding-top: 1rem;
-    color: black;
+    color: white;
   }
 
   .main {
@@ -139,9 +140,9 @@ nav {
   }
   .greeting-main {
     width: 100%;
-    padding: 30px 10px;
+    padding: 60px 10px;
     margin: 0px auto;
-    background-color: white;
+    background-color: #000724;
   }
   
   .greeting-main {
@@ -233,7 +234,7 @@ nav {
     }
 
     .container {
-      width: 50%;
+      width: 40%;
       background-color: #333333;
       margin: auto;
     }
@@ -247,18 +248,20 @@ nav {
     }
 
     .skills-p{
+      font-family:'Courier New', Courier, monospace ;
+      font-weight: bold;
       text-align: center;
-      margin-bottom: 5px;
-      margin-top: 5px;
+      padding-top: 70px;
+      
     }
     
     
     .html {width: 90%; background-color: #04AA6D;}
-    .css {width: 80%; background-color: #2196F3;}
-    .python {width: 90%; background-color: purple;}
-    .js {width: 90%; background-color: red;}
-    .reactjs {width: 90%; background-color: yellow;}
-    .cpp {width: 90%; background-color: pink;}
-    .swift {width: 90%; background-color: orange;}
-    .java {width: 90%; background-color: purple;}
+    .css {width: 90%; background-color: #2196F3;}
+    .python {width: 80%; background-color: purple;}
+    .js {width: 70%; background-color: red;}
+    .reactjs {width: 70%; background-color: gray;}
+    .cpp {width: 40%; background-color: pink;}
+    .swift {width: 50%; background-color: orange;}
+    .java {width: 30%; background-color: blue;}
     
